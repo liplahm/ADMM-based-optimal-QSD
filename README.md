@@ -1,2 +1,5 @@
-This is the final report for the work done in term paper for admm based optimal qsd.
-Here we applied the admm algorithm to the problem of optimal Quantum State Discrimination which is a SDP problem for general non orthogonal states. The time complexity is considerably reduced for accuracy within two decimal places wrt the SDP algorithm in literature.
+This repository contains the final report for the term paper on ADMM-based optimal quantum state discrimination (QSD).
+
+The work applies the Alternating Direction Method of Multipliers (ADMM) to the problem of optimal quantum state discrimination, which can be formulated as a semidefinite programming (SDP) problem for general non-orthogonal quantum states.
+
+Compared to standard SDP solvers used in the literature, the proposed approach achieves a significant reduction in computational time while maintaining accuracy up to two decimal places.
